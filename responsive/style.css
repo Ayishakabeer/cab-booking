@@ -1,0 +1,479 @@
+body, h1, h2, h3, p, ul, li, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    height: 100px;
+    z-index: 1000;
+}
+
+.navbar h1 {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: #ffd622;
+    border: none;
+    font-weight: bolder;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    margin: -50px 0px 0px 500px;
+    /* margin-left: 900px; */
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e64a19;
+}
+.booknow{
+    background-color: yellow; 
+    color:black;
+    border-radius: 5px;
+}
+/* Header Section */
+.header {
+    background-image: url('https://wallpapercave.com/wp/wp1898150.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+/* 24X7 */
+.header-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 32px;
+}
+
+.header-content p {
+    font-size: 16px;
+}
+
+.header-content .description {
+    color: grey;
+    width: 830px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+
+/* info section */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff389;
+    padding: 20px;
+    border-radius: 50px;
+    width: 90%;
+    margin: -50px 50px 0px 50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.info-item {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.info-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+.app-buttons img {
+    width: 130px;
+    margin: 5px;
+}
+.info-section:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Cars Section */
+.cars {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car {
+    margin: 20px;
+    max-width: 300px;
+    color: rgb(0, 0, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    background-color: rgba(231, 231, 67, 0.4);
+    padding: 5px;
+}
+
+.car img {
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.car:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Offers Section */
+.offers {
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+.offer-list {
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.offer {
+    margin: 20px;
+    /* width: 300px; */
+    width: 100%;
+
+    height: fit-content;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer img {
+    width: 95%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+ .offer:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+} 
+
+/* Features Section */
+.features {
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+
+.features ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.features li {
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.features li:hover {
+    color: #ff5722;
+}
+
+/* Booking Form Section */
+.quote{
+    color: rgb(254, 233, 2);
+    font-size: 50px;
+    margin-top: 10vh;
+    margin-right: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.qu1{
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 80px;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: "Pirata One", system-ui;
+
+}
+
+input{
+    margin-left: -12px;
+}
+.booking {
+    padding: 50px 0px;
+    text-align: center;
+}
+.formhead{
+    margin-top: 40px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.booking form {
+    max-width: 500px;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    padding: 20px;
+    background-color: rgba(0, 0, 0,.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 400px;
+}
+
+.booking form:hover {
+    box-shadow: 0 0 20px rgba(253, 236, 1, 0.2);
+    background-color: rgba(0, 0, 0,.8) ;
+}
+
+.booking form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.booking form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.booking form input:focus {
+    border-color: #ff5722;
+}
+
+.booking form button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking form button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+    background-color: #444;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .navbar h1{
+        margin: 0px 40px 0px 40px;
+    }
+    
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        margin: -30px 20px 0px 20px;
+        border-radius: 0px;
+    }
+
+    .info-item {
+        margin-bottom: 15px;
+    }
+    .header{
+        width: 100%;
+    }
+    .car-list, .offer-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car, .offer {
+        margin: 20px 0;
+        max-width: 90%;
+        align-items: wrap;
+    }
+
+    .search-btn {
+        margin-top: 10px;
+        margin-left: 00px;
+        width : fit-content;
+        height: fit-content;
+    }
+
+    .booking form {
+        align-self: center;
+        max-width: 90%;
+    }
+
+    .quote {
+        display: none;
+        /* margin-right: 0;
+        font-size: 40px; */
+    }
+
+    .header-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-content p {
+        font-size: 1rem;
+    }
+    .header-content h1 {
+        font-size: 28px;
+    }
+
+    .header-content p {
+        font-size: 15px;
+    }
+
+    .header-content .description {
+        width: 90%; 
+        line-height: 28px;
+    }
+}
+
+/* Small Screens (Phones) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+    .features{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar h1 {
+        display: block;
+        margin: 0 auto;
+        font-size: larger;
+    }
+    .search-btn{
+        display: none;
+        margin: -30px 50px 0px 0px;
+        
+    }
+    
+    .header {
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .car, .offer {
+        max-width: 100%;
+    }
+
+    .car-list, .offer-list {
+        flex-direction: column;
+    }
+
+    .booking form {
+        max-width: 80%;   
+    }
+    .car{
+        margin-bottom: 10px;
+    }
+    .cars{
+        padding: 0px 20px;
+        margin: 0px 20px 0px 20px;
+        width: fit-content;
+    }
+    .quote {
+        display: none;
+        
+    }
+    .offer{
+        align-content: center;
+        padding: 0px 20px;
+    }
+    
+    .header{
+        height: fit-content;
+    }
+
+    .formhead {
+        font-size: large;
+        margin-top: 80px;
+    }
+    .footer{
+        width: 100%;
+
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .header-content h1 {
+        font-size: 24px;
+    }
+
+    .header-content p {
+        font-size: 14px;
+    }
+
+    .header-content .description {
+        width: 95%; /* Further reduce width for small screens */
+        line-height: 25px;
+    }
+}
